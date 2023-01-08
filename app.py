@@ -46,6 +46,7 @@ block = gr.Blocks()
 with block:
     gr.Markdown("""<h1><center>WORK SMART</center></h1>
     """)
+
     chatbot = gr.Chatbot()
     message = gr.Textbox(placeholder=prompt)
     state = gr.State()
